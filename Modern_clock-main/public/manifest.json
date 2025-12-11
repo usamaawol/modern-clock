@@ -1,0 +1,38 @@
+{
+  "name": "WakeWise - Smart Alarm & Planner",
+  "short_name": "WakeWise",
+  "description": "Modern alarm clock and daily planner with voice commands and smart wake-up features.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1a",
+  "theme_color": "#00d4ff",
+  "orientation": "portrait-primary",
+  "shortcuts": [
+    {
+      "name": "Add Alarm",
+      "short_name": "Alarm",
+      "url": "/#add-alarm",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Open Tasks",
+      "short_name": "Tasks",
+      "url": "/#tasks",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
